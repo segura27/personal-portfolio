@@ -1,0 +1,13 @@
+.Card {
+  margin-bottom: 0.25em;
+}
+
+.Card * {
+  font-size: 95%;
+}
+
+.Card .card-header {
+  background-color: #1E656D;
+  color: white;
+}
+/*# sourceMappingURL=Skills.css.map */

@@ -1,0 +1,22 @@
+#intro{
+    background-image: url("../assets/img/markus-spiske-unspash.jpg");
+    background-size: 100%;
+    h1 {
+        display: inline-block;
+        margin-bottom: 0.2em;
+    }
+    p {
+        line-height: 2em;
+    }
+}
+
+.intro-content{
+    display:inline;
+    background-color: rgba(234, 237, 237,0.8);
+    padding: 0.1em;
+}
+
+.emphasis{
+    color: rgb(169, 0, 103);
+    font-weight: bold;
+}
