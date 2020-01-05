@@ -21,14 +21,14 @@ class Skills extends Component {
           <Card className="Card">
             <Card.Header>Front-end Web Development</Card.Header>
             <Card.Body>
-              <Card.Title>Languages:</Card.Title>
+              <Card.Title>Languages</Card.Title>
               <Card.Text>HTML, CSS (<a href="https://sass-lang.com/">SCSS</a>), JavaScript (JS)</Card.Text>
               <Card.Title>Frameworks</Card.Title>
               <Card.Text>
                 React, Bootstrap, <a href="https://uber.github.io/react-vis/">React-Vis</a> (Data Visualization).
               </Card.Text>
                 <footer className="blockquote-footer">
-                    Focusing on Responsive Web Design and Serverless Applications.
+                    Focusing on Responsive Web Design.
                 </footer>
             </Card.Body>
           </Card>
@@ -37,12 +37,8 @@ class Skills extends Component {
           <Card className="Card">
             <Card.Header>Back-end Web Development</Card.Header>
             <Card.Body>
-              <Card.Title>Core Tecnologies & Frameworks:</Card.Title>
+              <Card.Title>Core Tecnologies & Frameworks</Card.Title>
               <Card.Text>NodeJS, ExpressJS, JSON, SQL, MongoDB / DynamoDB (NoSQL), REST API</Card.Text>
-              <Card.Title>Frameworks</Card.Title>
-              <Card.Text>
-                React, Bootstrap, <a href="https://uber.github.io/react-vis/">React-Vis</a> (Data Visualization).
-              </Card.Text>
                 <footer className="blockquote-footer">
                     Focusing on REST APIs and Serverless Aplications.
                 </footer>
@@ -53,9 +49,9 @@ class Skills extends Component {
           <Card className="Card">
             <Card.Header>Development and Deployment</Card.Header>
             <Card.Body>
-              <Card.Title>Development Tools:</Card.Title>
+              <Card.Title>Development Tools</Card.Title>
               <Card.Text>VS Code, Terminal / Console (UNIX/Windows), git, Scrum Methodology.</Card.Text>
-              <Card.Title>Deployment and Cloud:</Card.Title>
+              <Card.Title>Deployment and Cloud</Card.Title>
               <Card.Text>GitHub, AWS Lambda, AWS DynamoDB, AWS S3 (Storage/Website Hosting), AWS EC2, AWS Route53 (Domain Registration), Heroku.</Card.Text>
             </Card.Body>
           </Card>
@@ -66,7 +62,7 @@ class Skills extends Component {
             <Card.Header>Others</Card.Header>
             <Card.Body>
             <Card.Title>Knowledge of Internal Tools</Card.Title>
-              <Card.Text>DevBox, Brazil, Bindles, VersionSets, Pipelines, git with Amazon.</Card.Text>
+              <Card.Text>DevBox, Brazil, Bindles, VersionSets, Pipelines, git with Amazon, Redfort.</Card.Text>
               <Card.Title>Experience with</Card.Title>
               <Card.Text>C++, Java, Python, Arduino (Robotics, IOT), SSH, VB.NET, Virtualization, Linux, Bash (scripting). </Card.Text>
             </Card.Body>

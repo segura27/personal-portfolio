@@ -27,20 +27,20 @@ class ModalHeadsUp extends Component {
           </Modal.Header>
           <Modal.Body>
             <Row className="justify-content-md-center">
-                <Col xs={12} md={5}>
+                <Col xs={12}  md={8} lg={6} >
                     <Alert variant="warning">This website is still in progress! I'll add more stuff soon...</Alert>
                 </Col>
             </Row>
           
           <ul>
               <li>
-                This is a fully static website, it's served to you using an AWS S3 bucket configured to host the site.
+                This is a fully static website, it's served from an AWS S3 bucket configured to host the site.
               </li>
               <li>
                  It is fully responsive... Go ahead! Try it in your phone, or resize this window to see how it fits different screens real nice!
               </li>
               <li>
-                I used ReactJS + React-Bootstrap to make it look nice.
+                I used ReactJS with React-Bootstrap to make it look nice.
               </li>
               <li>
                   If you're curious about the code itself... it's all available on <a href="https://github.com/segura27/personal-portfolio" target="_blank" rel="noopener noreferrer">GitHub, check it out!</a>
