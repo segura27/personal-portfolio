@@ -13,11 +13,11 @@ class Skills extends Component {
     <Container fluid>
         <Row>
             <Col xs={12}>
-                <h1 id="skills">My Skills</h1>
+                <h1 id="skills">Skills</h1>
             </Col>
         </Row>
         <Row className="justify-content-md-center">
-        <Col xs={12} md={3}>
+        <Col xs={12} md={6} lg={4} xl={3}>
           <Card className="Card">
             <Card.Header>Front-end Web Development</Card.Header>
             <Card.Body>
@@ -33,12 +33,12 @@ class Skills extends Component {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} md={3}>
+        <Col xs={12} md={6} lg={4} xl={3}>
           <Card className="Card">
             <Card.Header>Back-end Web Development</Card.Header>
             <Card.Body>
               <Card.Title>Core Tecnologies & Frameworks:</Card.Title>
-              <Card.Text>NodeJS, ExpressJS, JSON, SQL, MongoDB / DynamoDB (NoSQL), JavaScript</Card.Text>
+              <Card.Text>NodeJS, ExpressJS, JSON, SQL, MongoDB / DynamoDB (NoSQL), REST API</Card.Text>
               <Card.Title>Frameworks</Card.Title>
               <Card.Text>
                 React, Bootstrap, <a href="https://uber.github.io/react-vis/">React-Vis</a> (Data Visualization).
@@ -49,24 +49,24 @@ class Skills extends Component {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} md={3}>
+        <Col xs={12} md={6} lg={4} xl={3}>
           <Card className="Card">
             <Card.Header>Development and Deployment</Card.Header>
             <Card.Body>
               <Card.Title>Development Tools:</Card.Title>
-              <Card.Text>VS Code, Terminal / Console (UNIX/Windows), git.</Card.Text>
+              <Card.Text>VS Code, Terminal / Console (UNIX/Windows), git, Scrum Methodology.</Card.Text>
               <Card.Title>Deployment and Cloud:</Card.Title>
               <Card.Text>GitHub, AWS Lambda, AWS DynamoDB, AWS S3, AWS EC2, Heroku.</Card.Text>
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} md={3}>
+        <Col xs={12} md={6} lg={4} xl={3}>
           <Card className="Card">
 
             <Card.Header>Others</Card.Header>
             <Card.Body>
             <Card.Title>Knowledge of Internal Tools</Card.Title>
-              <Card.Text>DevBox, Brazil, Bindles, VersionSets, Pipelines, git with Amazon (gitFarm).</Card.Text>
+              <Card.Text>DevBox, Brazil, Bindles, VersionSets, Pipelines, git with Amazon.</Card.Text>
               <Card.Title>Experience with</Card.Title>
               <Card.Text>C++, Java, Python, Arduino (Robotics, IOT), SSH, VB.NET, Virtualization, Linux, Bash (scripting). </Card.Text>
             </Card.Body>

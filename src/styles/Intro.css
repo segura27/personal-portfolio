@@ -14,11 +14,11 @@
 
 .intro-content {
   display: inline;
-  background-color: rgba(234, 237, 237, 0.8);
+  background-color: rgba(234, 237, 237, 0.85);
   padding: 0.1em;
 }
 
-.emphasis {
+.highlight {
   color: #a90067;
   font-weight: bold;
 }
