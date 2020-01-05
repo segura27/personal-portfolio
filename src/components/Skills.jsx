@@ -56,7 +56,7 @@ class Skills extends Component {
               <Card.Title>Development Tools:</Card.Title>
               <Card.Text>VS Code, Terminal / Console (UNIX/Windows), git, Scrum Methodology.</Card.Text>
               <Card.Title>Deployment and Cloud:</Card.Title>
-              <Card.Text>GitHub, AWS Lambda, AWS DynamoDB, AWS S3, AWS EC2, Heroku.</Card.Text>
+              <Card.Text>GitHub, AWS Lambda, AWS DynamoDB, AWS S3 (Storage/Website Hosting), AWS EC2, AWS Route53 (Domain Registration), Heroku.</Card.Text>
             </Card.Body>
           </Card>
         </Col>

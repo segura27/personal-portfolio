@@ -28,7 +28,7 @@ class Education extends Component {
                   </Col>
                   <Col xs={4}>
                     Progress:
-                    <ProgressBar animated now="80" label="80% Done. Grad. June 2020" />
+                    <ProgressBar animated now="80" label="80% Done." />
                   </Col>
                 </Row>
 

@@ -43,7 +43,7 @@ class ModalHeadsUp extends Component {
                 I used ReactJS + React-Bootstrap to make it look nice.
               </li>
               <li>
-                  If you're curious about the code itself... it's all available on <a href="https://github.com/segura27/personal-portfolio" target="_blank">GitHub, check it out!</a>
+                  If you're curious about the code itself... it's all available on <a href="https://github.com/segura27/personal-portfolio" target="_blank" rel="noopener noreferrer">GitHub, check it out!</a>
               </li>
           </ul>
 
