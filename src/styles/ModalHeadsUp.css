@@ -2,3 +2,9 @@
     background-color: #1E656D;
     color: white;
 }
+.modalTitle{
+    font-size: 2.2vh;;
+}
+.modalBody{
+    font-size: 2vh;
+}

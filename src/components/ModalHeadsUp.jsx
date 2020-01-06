@@ -23,16 +23,16 @@ class ModalHeadsUp extends Component {
       <div>
         <Modal size="xl" show={this.state.showModal} onHide={this.close}>
           <Modal.Header>
-            <Modal.Title>Psst...! Thought you'd like to know:</Modal.Title>
+            <Modal.Title className="modalTitle" >Psst...! Thought you'd like to know:</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-md-center modalBody">
                 <Col xs={12}  md={8} lg={6} >
                     <Alert variant="warning">This website is still in progress! I'll add more stuff soon...</Alert>
                 </Col>
             </Row>
           
-          <ul>
+          <ul className="modalBody">
               <li>
                 This is a fully static website, it's served from an AWS S3 bucket configured to host the site.
               </li>
