@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Intro from './components/Intro';
 import Skills from './components/Skills';
 import Education from './components/Education';
+import SiteArchitecture from './components/SiteArchitecture'
 import Contact from './components/Contact';
 import ModalHeadsUp from './components/ModalHeadsUp'
 
@@ -22,6 +23,7 @@ function App() {
         <Intro/>  
         <Skills/>
         <Education/>
+        <SiteArchitecture/>
         <Contact/>
         {/* <Chart/> */}
     </div>

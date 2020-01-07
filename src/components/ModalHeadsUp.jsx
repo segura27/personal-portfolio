@@ -26,28 +26,26 @@ class ModalHeadsUp extends Component {
             <Modal.Title className="modalTitle" >Psst...! Thought you'd like to know:</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <Row className="justify-content-md-center modalBody">
-                <Col xs={12}  md={8} lg={6} >
-                    <Alert variant="warning">This website is still in progress! I'll add more stuff soon...</Alert>
+            <Row className="justify-content-md-center modalBody modalAlert">
+                <Col xs={12}  md={8} lg={6}>
+                    <Alert variant="warning">This website is still in progress!</Alert>
                 </Col>
             </Row>
           
           <ul className="modalBody">
               <li>
-                This is a fully static website, it's served from an AWS S3 bucket configured to host the site.
+                This is an static website, served from an AWS S3 bucket configured to host the site.
               </li>
               <li>
-                 It is fully responsive... Go ahead! Try it in your phone, or resize this window to see how it fits different screens real nice!
+                 Fully responsive... Try it in your phone and laptop, or resize this window to see how it fits different screens real nice!
               </li>
               <li>
                 I used ReactJS with React-Bootstrap to make it look nice.
               </li>
               <li>
-                  If you're curious about the code itself... it's all available on <a href="https://github.com/segura27/personal-portfolio" target="_blank" rel="noopener noreferrer">GitHub, check it out!</a>
+                  If you're curious, all the code is available on GitHub <a href="https://github.com/segura27/personal-portfolio" target="_blank" rel="noopener noreferrer">check it out!</a>
               </li>
-          </ul>
-
-         
+          </ul>         
           </Modal.Body>
           <Modal.Footer>
             <Button id="ModalHeadsUpBtn" onClick={this.close}>

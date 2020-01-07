@@ -8,3 +8,7 @@
 .modalBody{
     font-size: 2vh;
 }
+
+.modalAlert{
+    text-align: center;
+}
