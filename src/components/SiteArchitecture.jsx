@@ -11,7 +11,7 @@ class SiteArchitecture extends Component {
       <Container fluid>
         <Row className="justify-content-md-center">
           <Col xs={12}>
-              <h1>Site Arquitecture</h1>
+              <h1>Site Architecture</h1>
           </Col>
         </Row>  
         <Row className="justify-content-md-center">
