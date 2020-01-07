@@ -14,7 +14,7 @@ class Intro extends Component {
           <div id="intro-content-wrapper">
           <p className="intro-content">
             I'm a <span className="highlight">Software engineering student</span>, expecting my Bachelor's degree by June 2020. 
-            I have front and back end -<span className="highlight">Full Stack Web Development experience using ReactJS, NodeJS, Bootstrap, ExpressJS, SQL, MongoDB (NoSQL)</span>. I have deployed applications on <span className="highlight">AWS using Lambda, Cognito, DynamoDB, S3 and others. </span>
+            With <span className="highlight">Web Development experience (front & back-end) using ReactJS, NodeJS, Bootstrap, ExpressJS, SQL/NoSQL</span>. I have deployed applications on <span className="highlight">AWS (e.g., Lambda, Cognito, DynamoDB, S3, Route 53). </span>
             I've been a Business / Quality Analyst at Amazon for almost two years and have learned Data Analysis and Visualization with Tableau, Excel and Python. I like to work on IoT projects with my Arduino boards and all the sensors I've got.
           </p>
           </div>
