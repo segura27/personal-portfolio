@@ -8,7 +8,7 @@ class Header extends Component {
   }
   render() {
     return (
-      <Container fluid>
+      <Container fluid className="contact">
         <Row className="justify-content-md-center">
           <Col xs={12}>
             <h1 id="contact">Contact</h1>
