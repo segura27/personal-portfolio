@@ -3,6 +3,12 @@
   font-family: 'Cairo', sans-serif;
 }
 
+.card-title{
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+  font-weight: bolder;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
