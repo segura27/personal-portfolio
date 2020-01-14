@@ -8,7 +8,7 @@ class Header extends Component {
   }
   render() {
     return (
-      <Navbar id="home" variant="dark"  collapseOnSelect expand="lg">
+      <Navbar fixed="top" id="home" variant="dark"  collapseOnSelect expand="lg">
         <Navbar.Brand href="#home">Resume</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
